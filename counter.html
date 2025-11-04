@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+
+    <style>
+        button{
+            border-radius: 10px;
+        }
+        body{
+            background-color: black;
+        }
+        .box{
+            background-color: white;
+            border: 3px solid white;
+            width: 400px;
+
+            text-align: center;
+            padding: 40px;
+            margin: 150px auto auto auto;
+            border-radius: 30px;
+        }
+        h1{
+        font-size: 60px;
+
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        h2{
+
+            font-size: 70px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="box">
+
+        <h1>Counter</h1>
+        <h2 id="value">0</h2>
+
+        <button ondblclick="onRed()" id="red" style="font-size: 30px;color: white;background-color: red;padding: 10px;border: 1px solid red;" onclick="OnDecrease()">Decrease</button>
+        <button style="font-size: 30px;color: white;background-color: green;padding: 10px; border: 1px solid green;"  onclick="OnIncrease()">Increase</button>
+        <button style="font-size: 30px;color: white;background-color: black;padding: 10px; border: 1px solid black;"  onclick="Reset()">Reset</button>
+
+
+    </div>
+
+    <script>
+
+let counterElement=document.getElementById("value");
+
+function onRed(){
+    document.getElementById("red").style.background="red";
+    
+}
+function OnDecrease(){
+
+    let previousCounter=counterElement.textContent;
+
+    let updateCOunter=parseInt(previousCounter)-1;
+
+    counterElement.textContent=updateCOunter;
+
+    document.getElementById("red").style.background="black";
+
+    if(updateCOunter<0){
+       counterElement.style.color="red";
+    }
+
+
+
+    
+}
+
+function OnIncrease(){
+
+    let previousCounter=counterElement.textContent;
+
+    let updateCOunter=parseInt(previousCounter)+1;
+
+    counterElement.textContent=updateCOunter;
+
+    if(updateCOunter>0){
+     counterElement.style.color="green";
+    }
+}
+
+function Reset(){
+let updateCOunter=0;
+counterElement.textContent=updateCOunter;
+
+if(updateCOunter==0){
+   counterElement.style.color="black";
+}
+
+}
+
+
+    </script>
+</body>
+</html>
