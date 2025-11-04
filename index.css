@@ -1,0 +1,354 @@
+.container{
+    margin: 0px;
+    width: 100%;
+
+}
+body{
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(https://images.template.net/91509/black-and-pink-background-niurd.jpg);
+    background-color: brown;
+}
+body:hover{
+    background-image:linear-gradient(black);
+}
+.title{
+    color: red;
+      
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.about{
+    width: 80%;
+    margin: 100px auto auto auto;
+ 
+    padding: 50px;
+    
+    border-radius: 20px;
+    display:flex;
+  background-image:linear-gradient(skyblue,white);
+
+}
+.about:hover{
+    background-image: linear-gradient(black 55%,Green 45%);
+  
+    text-shadow: 1px 1px 5px rgb(213, 124, 124),-1px -1px 5px rgb(219, 170, 170);
+}
+.about-p{
+  
+    font-size: 25px;
+    margin: 20px;
+}
+
+
+.image-about{
+    border-radius: 50%;
+    width: 400px;
+}
+
+button{
+    color: white;
+    background-image: linear-gradient(black 50%,green 50%);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.navbox{
+    display: flex;
+    padding: 20px;
+ 
+
+    background-image: linear-gradient(black);
+
+    color: white;
+    border-radius: 20px;
+  
+}
+.navbox:hover{
+    background-color: rgb(94, 66, 66);
+    background-image: linear-gradient(black 60% ,green 40%);
+    color: white;
+    border-radius: 20px;
+    
+}
+
+#downloadBtn{
+    border: 2px solid red;
+    padding: 20px;
+    border-radius: 20px;
+background-image: linear-gradient(red,black);
+    color: white;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+}
+a:hover{
+    color: red;
+}
+.navbox .nav{
+    display: flex;
+}
+.nav ul{
+    display: flex;
+    text-align: center;
+    margin-top: 30px;
+    list-style: none;
+}
+.nav ul li{
+    margin: 20px;
+}
+
+.main{
+
+  
+    width: 80%;
+  
+    display: flex;
+    padding: 50px;
+
+    background-color: skyblue;
+ 
+    border-radius: 20px;
+    margin: 50px auto auto auto;
+}
+.main:hover{
+  background-image:linear-gradient(black 55%,green 45%);
+
+  color: white;
+  
+}
+
+h1{
+    color:white;
+    font-size: 40px;
+
+}
+h2{
+    color: orangered;
+    text-transform: capitalize;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+    text-transform: capitalize;
+}
+p:hover{
+    color: white;
+}
+.main-information{
+    width: 50%;
+
+}
+.profile{
+    width: 60%;
+}
+
+.profi{
+    border-radius: 50%;
+    margin-left: 100px;
+}
+
+.im1{
+    width: 100px;
+    border-radius: 20px;
+
+}
+.main-information .h1{
+    color: green;
+
+ }
+.im2{
+    width: 119px;
+        border-radius: 20px;
+}
+
+.skills{
+background-image:url(https://images.pexels.com/photos/15036818/pexels-photo-15036818.jpeg);
+    width: 80%;
+    margin-top: 100px;
+
+
+border: 1px solid white;
+    margin:10px auto auto auto;
+    padding: 35px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.skills:hover{
+    box-shadow: 1px 1px 5px white,-1px -1px 5px white;
+}
+.skillss{
+    text-align: center;
+}
+.box1{
+   
+    cursor: pointer;
+    width: 500px;
+    margin: auto auto auto auto;
+    padding: 60px;
+    border-radius: 60px;
+   background-image: linear-gradient(red,black);
+
+
+}
+.box1:hover{
+      background-image: linear-gradient(black,red);
+       box-shadow: 1px 1px 5px white,-1px -1px 5px white;
+}
+
+.box2{
+    cursor: pointer;
+    width: 500px;
+    margin: 100px auto auto auto;
+    padding: 60px;
+    border-radius: 60px;
+   background-image: linear-gradient(red,black);
+
+}
+
+.box2:hover{
+      background-image: linear-gradient(black,red);
+       box-shadow: 1px 1px 5px white,-1px -1px 5px white;
+}
+.im4{
+    width: 112px;
+    border-radius: 20px;
+}
+.im6{
+    width: 120px;
+    border-radius: 20px;
+}
+.im7{
+    width: 330px;
+    border-radius: 20px;
+}
+
+.im3{
+    width: 250px;
+    border-radius: 20px;
+}
+.im5{
+        width: 112px;
+    border-radius: 20px;
+
+}
+
+.box3{
+        cursor: pointer;
+   
+    width: 500px;
+    margin: 100px auto auto auto;
+    padding: 60px;
+    border-radius: 60px;
+   background-image: linear-gradient(red,black);
+
+
+}
+
+.box3:hover{
+      background-image: linear-gradient(black,red);
+       box-shadow: 1px 1px 5px white,-1px -1px 5px white;
+}
+
+.box4{
+        cursor: pointer;
+        width: 500px;
+    margin: 100px auto auto auto;
+    padding: 60px;
+    border-radius: 60px;
+   background-image: linear-gradient(red,black);
+
+
+}
+
+
+.box4:hover{
+      background-image: linear-gradient(black,red);
+       box-shadow: 1px 1px 5px white,-1px -1px 5px white;
+}
+
+
+.im11{
+    width: 170px;
+    border-radius: 20px;
+}
+.im12{
+    width: 130px;
+    border-radius: 20px;
+}
+.im13{
+    width: 300px;
+    border-radius: 20px;
+}
+.im14{
+    width: 120px;
+    border-radius: 20px;
+}
+
+.contact{
+    background-image:url(https://wallpapercave.com/wp/wp8358557.png);
+    width: 80%;
+    margin: auto auto auto auto;
+    padding: 30px;
+    border-radius: 20px;
+}
+.mycontact{
+    width: 400px;
+    margin: auto auto auto auto;
+    border-radius: 30px;
+    padding: 40px;
+    border: 2px solid black;
+    background-color:white;
+}
+i{
+    margin: 10px;
+}
+
+.project{
+    width: 80%;
+    border: 2px solid white;
+    margin: auto auto auto auto;
+    padding: 30px;
+    border-radius: 20px;
+    background-image:url(https://wallpaperaccess.com/full/2109972.jpg);
+}
+.project-01{
+    
+    width: 600px;
+    margin: auto auto auto auto;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+   background-color: white;
+
+}
+
+.project-02{
+      
+    width: 600px;
+    margin: auto auto auto auto;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: white;
+}
+
+
+
+.Small-Project{
+
+
+    background-color: green;
+
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+
