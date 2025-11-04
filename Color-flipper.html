@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color-Flipper</title>
+
+    <style>
+
+
+body{
+    background-color: black;
+}
+#green{
+    border: 2px solid green;
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+}
+#yellow{
+       border: 2px solid yellow;
+    background-color: yellow;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+#red{
+       border: 2px solid red;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+#pink{
+       border: 2px solid pink;
+    background-color: pink;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+        .Box{
+            background-color: black;
+            border-radius: 20px;
+           
+          
+          padding: 20px;
+            text-align: center;
+
+        }
+
+
+        button{
+            padding: 30px;
+        }
+        .color-flipper{
+            width: 500px;
+            border-radius: 20px;
+            border: 2px solid black;
+            padding: 60px;
+            margin: 200px auto auto auto;
+              background-color: white;
+     
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div id="background-color" class="color-flipper">
+
+        <h1>Color-Flipper</h1>
+
+        <div class="Box">
+
+            <button id="green" onclick="Green()">Green</button>
+            <button id="yellow" onclick="Yellow()">Yellow</button>
+            <button id="red" onclick="Red()">Red</button>
+            <button id="pink" onclick="Pink()">Pink</button>
+           
+
+
+        </div>
+
+    </div>
+
+    <script>
+
+        function Green(){
+
+            document.getElementById("background-color").style.background="green";
+            document.getElementById("green").style.background="black";
+             document.getElementById("yellow").style.background="yellow";
+              document.getElementById("red").style.background="red";
+
+               document.getElementById("pink").style.background="pink";
+              
+        }
+             function Yellow(){
+
+            document.getElementById("background-color").style.background="yellow";
+ document.getElementById("yellow").style.background="black";
+             document.getElementById("green").style.background="green";
+              document.getElementById("red").style.background="red";
+
+               document.getElementById("pink").style.background="pink";
+
+
+        }
+             function Red(){
+
+            document.getElementById("background-color").style.background="red";
+
+             document.getElementById("red").style.background="black";
+             document.getElementById("yellow").style.background="yellow";
+              document.getElementById("green").style.background="green";
+
+               document.getElementById("pink").style.background="pink";
+        }
+
+             function Pink(){
+
+            document.getElementById("background-color").style.background="pink";
+             document.getElementById("pink").style.background="black";
+             document.getElementById("yellow").style.background="yellow";
+              document.getElementById("red").style.background="red";
+
+               document.getElementById("green").style.background="green";
+        }
+
+    </script>
+</body>
+</html>
